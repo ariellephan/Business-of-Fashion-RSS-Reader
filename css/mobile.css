@@ -1,0 +1,12 @@
+header, footer { display: block; }
+ .ui-li-icon {
+   top:  10px;
+}
+ 
+.Bof-TheBusinessOfFashionIntelligence { background: #7A3058;}
+.Bof-TheBusinessOfFashionInsightAnalysis { background: #7A3058;}
+
+
+.ui-li-heading { font-size: 12px; }
+
+.tutorial_image object, .tutorial_image embed { max-width: 250px; }
