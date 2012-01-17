@@ -3,7 +3,7 @@
  <div data-role="page">
    <header data-role="header" class="snsd">
      <h1>
-       <img src="img/bof.png" alt="Tuts+" />
+       <img src="img/bof.png" alt="BOF" />
      </h1>
    </header>
    <!-- /header -->
@@ -19,7 +19,7 @@
      </ul>
    </div>
 
-   <footer data-role="footer" class="snsd">
+   <footer data-role="footer" class="">
       <h4> www.businessoffashion.com </h4>
    </footer>
 
