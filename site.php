@@ -1,6 +1,5 @@
 <?php
-// If "siteName" isn't in the querystring, set the default site name to 'nettuts'
-$siteName = empty($_GET['siteName']) ? 'nettuts' : $_GET['siteName'];
+$siteName = empty($_GET['siteName']) ? 'Bof-TheBusinessOfFashionInsightAnalysis' : $_GET['siteName'];
 
 $siteList = array(
    'Bof-TheBusinessOfFashionIntelligence',
@@ -8,8 +7,6 @@ $siteList = array(
 
 );
 
-// For security reasons. If the string isn't a site name, just change to 
-// nettuts instead.
 if ( !in_array($siteName, $siteList) ) {
    $siteName = 'Bof-TheBusinessOfFashionInsightAnalysis';
 }
